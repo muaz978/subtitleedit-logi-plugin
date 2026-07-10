@@ -6,6 +6,15 @@ device: MX Master (Actions Ring), MX Keys, or the MX Creative Console (buttons a
 Built on the [Logi Actions SDK](https://logitech.github.io/actions-sdk-docs/).
 Runs on macOS and Windows from the same source.
 
+## Screenshots
+
+The Actions Ring with the plugin's actions, each with its own icon, and the grouped
+action list in Options+:
+
+![Actions Ring and action list](docs/screenshots/ring-and-actions.png)
+
+![Actions Ring close up](docs/screenshots/ring-closeup.png)
+
 ## How it works
 
 Subtitle Edit has no automation API, so the plugin drives it the way the SDK
