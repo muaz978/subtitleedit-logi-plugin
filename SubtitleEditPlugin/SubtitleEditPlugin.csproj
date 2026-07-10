@@ -16,7 +16,14 @@
     <PluginDir Condition="$(OS) == 'Windows_NT'">$(LocalAppData)\Logi\LogiPluginService\Plugins\</PluginDir>
     <PluginDir Condition="$(OS) != 'Windows_NT'">$(HOME)/Library/Application Support/Logi/LogiPluginService/Plugins/</PluginDir>
 
-    <OutputPath>$(BaseOutputPath)$(Configuration)\bin\</OutputPath>
+    <!--
+      The package root holds bin/ next to metadata/, which is the layout the plugin
+      service expects and what the link file must point at. It is spelled out here
+      rather than built from BaseOutputPath, which is still empty at this point but
+      set to bin/ by the time a target runs, so the two would disagree.
+    -->
+    <PackageRootDir>$(MSBuildProjectDirectory)/$(Configuration)/</PackageRootDir>
+    <OutputPath>$(PackageRootDir)bin/</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,7 +37,7 @@
     <ItemGroup>
       <PackageFiles Include="package\**\*" />
     </ItemGroup>
-    <Copy SourceFiles="@(PackageFiles)" DestinationFolder="$(OutputPath)..\%(RecursiveDir)" />
+    <Copy SourceFiles="@(PackageFiles)" DestinationFolder="$(PackageRootDir)%(RecursiveDir)" />
   </Target>
 
   <!--
@@ -41,7 +48,7 @@
   <Target Name="InstallPlugin" DependsOnTargets="Build">
     <MakeDir Directories="$(PluginDir)" />
     <WriteLinesToFile File="$(PluginDir)$(ProjectName).link"
-                      Lines="$(MSBuildProjectDirectory)/$(BaseOutputPath)$(Configuration)/"
+                      Lines="$(PackageRootDir)"
                       Overwrite="true" />
     <Message Importance="high" Text="Linked $(ProjectName) into $(PluginDir). Restart Logi Options+ to pick it up." />
   </Target>
