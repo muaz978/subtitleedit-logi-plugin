@@ -18,7 +18,13 @@ import tarfile
 CONFIG = sys.argv[1] if len(sys.argv) > 1 else "Release"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "SubtitleEditPlugin" / CONFIG
-OUT = ROOT / "dist" / "SubtitleEdit_1_0.lplug4"
+def _version():
+    import re
+    y = (ROOT / "SubtitleEditPlugin" / "package" / "metadata" / "LoupedeckPackage.yaml").read_text()
+    m = re.search(r"^version:\s*(\S+)", y, re.M)
+    return (m.group(1) if m else "1_0").replace(".", "_")
+
+OUT = ROOT / "dist" / f"SubtitleEdit_{_version()}.lplug4"
 MTIME = 1767974400  # fixed, so the package is reproducible
 
 

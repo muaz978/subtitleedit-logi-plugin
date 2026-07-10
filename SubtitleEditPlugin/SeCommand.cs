@@ -56,5 +56,14 @@ namespace Loupedeck.SubtitleEditPlugin
             this.Plugin.ClientApplication.SendKeyboardShortcut(binding.KeyCode, binding.Modifiers);
             PluginLog.Verbose($"Sent {binding.KeysText} for {binding.ActionName}");
         }
+
+        // Draw the action's icon on the device button, for example the Actions Ring
+        // bubble. Without this the service draws the action name as text. Falls back to
+        // the name when the action has no symbol.
+        protected override BitmapImage GetCommandImage(String actionParameter, PluginImageSize imageSize)
+        {
+            var image = SeIconLoader.Image($"Loupedeck.SubtitleEditPlugin.SeCommand___{actionParameter}.svg");
+            return image ?? base.GetCommandImage(actionParameter, imageSize);
+        }
     }
 }

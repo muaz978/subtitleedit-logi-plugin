@@ -17,5 +17,11 @@ namespace Loupedeck.SubtitleEditPlugin
         }
 
         protected override void RunCommand(String actionParameter) => SubtitleEditPlugin.ReloadBindings();
+
+        protected override BitmapImage GetCommandImage(String actionParameter, PluginImageSize imageSize)
+        {
+            var image = SeIconLoader.Image("Loupedeck.SubtitleEditPlugin.SeReloadCommand.svg");
+            return image ?? base.GetCommandImage(actionParameter, imageSize);
+        }
     }
 }

@@ -52,6 +52,14 @@ namespace Loupedeck.SubtitleEditPlugin
 
         protected override String GetAdjustmentValue(String actionParameter) => String.Empty;
 
+        // Draw the dial's icon on the device. The symbol is named after the concrete
+        // adjustment class, so the derived type resolves to the right file.
+        protected override BitmapImage GetAdjustmentImage(String actionParameter, PluginImageSize imageSize)
+        {
+            var image = SeIconLoader.Image(this.GetType().FullName + ".svg");
+            return image ?? base.GetAdjustmentImage(actionParameter, imageSize);
+        }
+
         private void Send(String actionName)
         {
             if (!SubtitleEditPlugin.TryGetBinding(actionName, out var binding))
