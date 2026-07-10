@@ -1,0 +1,34 @@
+# ==================================================================================================
+# GENERAL SETTINGS
+# ==================================================================================================
+
+type: plugin4
+
+name: SubtitleEdit
+
+displayName: Subtitle Edit
+
+description: Control Subtitle Edit from your Logitech device. Actions are read from your own Subtitle Edit shortcuts, so they match however you have configured them.
+
+pluginFileName: SubtitleEditPlugin.dll
+
+version: 1.0
+
+author: Muaz Sabbagh
+
+copyright: Copyright (c) 2026 Muaz Sabbagh. All rights reserved.
+
+minimumLoupedeckVersion: 6.0
+
+
+# ==================================================================================================
+# PLUGIN PROPERTIES
+# ==================================================================================================
+
+pluginFolderWin: bin
+
+pluginFolderMac: bin
+
+supportedDevices:
+    - LoupedeckCtFamily
+    - LoupedeckExtendedFamily

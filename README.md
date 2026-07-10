@@ -1,0 +1,76 @@
+# Subtitle Edit plugin for Logi Options+
+
+Control [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) from a Logitech
+device: MX Master (Actions Ring), MX Keys, or the MX Creative Console (buttons and dials).
+
+Built on the [Logi Actions SDK](https://logitech.github.io/actions-sdk-docs/).
+Runs on macOS and Windows from the same source.
+
+## How it works
+
+Subtitle Edit has no automation API, so the plugin drives it the way the SDK
+recommends: by simulating the keyboard shortcuts Subtitle Edit already listens for.
+
+The important detail is where those shortcuts come from. Subtitle Edit registers its
+actions by name and stores the key bindings in the user's own `Settings.json`. The
+keys are therefore whatever that user configured, and the primary modifier differs by
+platform (`Win`, meaning Command, on macOS; `Ctrl` on Windows). Hard coding a key
+combination would break for anyone who remapped a shortcut, and break again across
+platforms.
+
+So the plugin reads `Settings.json` at load, resolves each action to its real keys, and
+builds one plugin action per shortcut. Remap something in Subtitle Edit and the plugin
+follows. An action with no keys assigned never appears, because there is nothing to send.
+
+Actions go to the focused application, so Subtitle Edit must be in front. The plugin is
+linked to Subtitle Edit (bundle `dk.nikse.subtitleedit`, process `SubtitleEdit`), so
+Options+ activates it automatically when Subtitle Edit comes forward.
+
+### Where the settings are read from
+
+1. `SUBTITLE_EDIT_SETTINGS`, if set, for a portable install.
+2. `%APPDATA%\Subtitle Edit\Settings.json` on Windows,
+   `~/Library/Application Support/Subtitle Edit/Settings.json` on macOS.
+
+## Actions
+
+Buttons are grouped as Playback, Timing, Lines, Text, File, Edit, Find and Tools.
+Anything bound in Subtitle Edit but not named in `SeCatalog.cs` still appears, under its
+Subtitle Edit control group, with a name derived from the action name.
+
+Dials (MX Creative Console):
+
+| Dial | Turn | Press |
+| --- | --- | --- |
+| Subtitle line | Previous / next line | Focus selected line |
+| Video position | Back / forward 500 ms | Play or pause |
+| Waveform zoom | Zoom out / in | none |
+| Next error | Previous / next error | List errors |
+
+`Reload shortcuts` re-reads `Settings.json` after you change a shortcut in Subtitle Edit.
+New actions appear after the plugin itself reloads, since the action list is built at load.
+
+## Building
+
+Requires the .NET SDK and Logi Options+ (the build references `PluginApi.dll` from the
+installed plugin service).
+
+```bash
+cd SubtitleEditPlugin
+dotnet build                      # builds only
+dotnet build -t:InstallPlugin     # also links it into the plugin service for testing
+dotnet build -t:UninstallPlugin   # removes the link
+```
+
+After `InstallPlugin`, restart Logi Options+. A plain `dotnet build` never touches the
+plugin service.
+
+## Status
+
+- Compiles against the shipped `PluginApi.dll`.
+- The shortcut reader and key translation are exercised against a real `Settings.json`:
+  all 80 entries resolve, the 2 that are dropped are the ones Subtitle Edit leaves
+  unassigned, and the modifier and key values are asserted for the tricky cases
+  (number row `D4`, arrows, numpad `Add` and `Subtract`, `Back`, and multi modifier
+  combinations such as `Win+Alt+Shift+D`).
+- Not yet exercised on a physical device.

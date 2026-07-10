@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>Loupedeck.SubtitleEditPlugin</RootNamespace>
+    <AssemblyName>SubtitleEditPlugin</AssemblyName>
+
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+
+    <PluginApiDir Condition="$(OS) == 'Windows_NT'">C:\Program Files\Logi\LogiPluginService\</PluginApiDir>
+    <PluginApiDir Condition="$(OS) != 'Windows_NT'">/Applications/Utilities/LogiPluginService.app/Contents/MonoBundle/</PluginApiDir>
+
+    <PluginDir Condition="$(OS) == 'Windows_NT'">$(LocalAppData)\Logi\LogiPluginService\Plugins\</PluginDir>
+    <PluginDir Condition="$(OS) != 'Windows_NT'">$(HOME)/Library/Application Support/Logi/LogiPluginService/Plugins/</PluginDir>
+
+    <OutputPath>$(BaseOutputPath)$(Configuration)\bin\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PluginApi">
+      <HintPath>$(PluginApiDir)PluginApi.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="CopyPackage" AfterTargets="PostBuildEvent">
+    <ItemGroup>
+      <PackageFiles Include="package\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(PackageFiles)" DestinationFolder="$(OutputPath)..\%(RecursiveDir)" />
+  </Target>
+
+  <!--
+    Registers the built plugin with the plugin service by writing a link file that
+    points at the build output. Run it deliberately:  dotnet build -t:InstallPlugin
+    A plain build never touches the plugin service. Undo with -t:UninstallPlugin.
+  -->
+  <Target Name="InstallPlugin" DependsOnTargets="Build">
+    <MakeDir Directories="$(PluginDir)" />
+    <WriteLinesToFile File="$(PluginDir)$(ProjectName).link"
+                      Lines="$(MSBuildProjectDirectory)/$(BaseOutputPath)$(Configuration)/"
+                      Overwrite="true" />
+    <Message Importance="high" Text="Linked $(ProjectName) into $(PluginDir). Restart Logi Options+ to pick it up." />
+  </Target>
+
+  <Target Name="UninstallPlugin">
+    <Delete Files="$(PluginDir)$(ProjectName).link" />
+    <Message Importance="high" Text="Removed $(ProjectName).link from $(PluginDir)." />
+  </Target>
+
+</Project>
