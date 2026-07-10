@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.2">
+  <file original="$SubtitleEdit___@general" source-language="en-US" target-language="pt-PT" datatype="plaintext">
+    <body>
+      <group id="@general">
+        <trans-unit id="$SubtitleEdit___General___ResetDisplayNameTemplate" translate="yes">
+          <source>Reset %</source>
+          <target />
+        </trans-unit>
+      </group>
+      <group id="@modes">
+        <trans-unit id="$SubtitleEdit___ModeName___main" translate="yes">
+          <source>Main</source>
+          <target />
+        </trans-unit>
+      </group>
+      <group id="@resources" />
+    </body>
+  </file>
+  <file original="$SubtitleEdit___main" source-language="en-US" target-language="pt-PT" datatype="plaintext">
+    <body>
+      <group id="@commands">
+        <group id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand">
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowToolsAiReviewCommand" translate="yes">
+            <source>AI review</source>
+            <target />
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___AddOrEditBookmarkCommand" translate="yes">
+            <source>Add or edit bookmark</source>
+            <target>Adicionar ou editar marcador</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowSyncAdjustAllTimesCommand" translate="yes">
+            <source>Adjust all times</source>
+            <target>Ajustar todos os tempos</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___AutoBreakCommand" translate="yes">
+            <source>Auto break</source>
+            <target>Quebra automática de texto</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowAutoTranslateCommand" translate="yes">
+            <source>Auto translate</source>
+            <target>Tradução automática</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowToolsBatchConvertCommand" translate="yes">
+            <source>Batch convert</source>
+            <target>Converter múltiplos ficheiros</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowToolsChangeCasingCommand" translate="yes">
+            <source>Change casing</source>
+            <target>Inverter maiúsculas/minúsculas</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___DeleteSelectedLinesCommand" translate="yes">
+            <source>Delete selected lines</source>
+            <target>Eliminar seleção</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ExtendSelectedToNextCommand" translate="yes">
+            <source>Extend to next</source>
+            <target>Estender selecionado para a seguinte</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ExtendSelectedToPreviousCommand" translate="yes">
+            <source>Extend to previous</source>
+            <target>Estender selecionado para a anterior</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___FillSelectedLinesWithClipboardCommand" translate="yes">
+            <source>Fill selected lines with clipboard</source>
+            <target>Preencher linhas selecionadas com o texto da área de transferência</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowFindCommand" translate="yes">
+            <source>Find</source>
+            <target>Localizar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___FindNextCommand" translate="yes">
+            <source>Find next</source>
+            <target>Localizar próximo</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___FindPreviousCommand" translate="yes">
+            <source>Find previous</source>
+            <target>Localizar anterior</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowToolsFixCommonErrorsCommand" translate="yes">
+            <source>Fix common errors</source>
+            <target>Corrigir erros comuns</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___FocusSelectedLineCommand" translate="yes">
+            <source>Focus selected line</source>
+            <target>Focar a linha selecionada (deslizar para visualizar em grelha)</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___VideoFullScreenCommand" translate="yes">
+            <source>Full screen video</source>
+            <target>Vídeo em ecrã inteiro</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowGoToLineCommand" translate="yes">
+            <source>Go to line</source>
+            <target>Ir para o número da linha</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___GoToNextErrorCommand" translate="yes">
+            <source>Go to next error</source>
+            <target>Ir para o próximo erro</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___GoToNextLineCommand" translate="yes">
+            <source>Go to next line</source>
+            <target>Ir para linha seguinte</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___GoToPreviousErrorCommand" translate="yes">
+            <source>Go to previous error</source>
+            <target>Ir para erro anterior</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___GoToPreviousLineCommand" translate="yes">
+            <source>Go to previous line</source>
+            <target>Ir para linha anterior</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___InsertLineAfterCommand" translate="yes">
+            <source>Insert line after</source>
+            <target>Inserir depois</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___InsertLineBeforeCommand" translate="yes">
+            <source>Insert line before</source>
+            <target>Inserir antes</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___WaveformInsertNewSelectionCommand" translate="yes">
+            <source>Insert new selection</source>
+            <target />
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___InverseSelectionCommand" translate="yes">
+            <source>Inverse selection</source>
+            <target>Inverter seleção</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ToggleLinesItalicOrSelectedTextCommand" translate="yes">
+            <source>Italic</source>
+            <target>Alternar itálico</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ListErrorsCommand" translate="yes">
+            <source>List errors</source>
+            <target>Listar erros</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___MergeSelectedLinesCommand" translate="yes">
+            <source>Merge selected lines</source>
+            <target>Combinar as linhas selecionadas</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowMultipleReplaceCommand" translate="yes">
+            <source>Multiple replace</source>
+            <target>Múltipla substituição</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___CommandFileNewCommand" translate="yes">
+            <source>New</source>
+            <target>Novo</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___CommandFileOpenCommand" translate="yes">
+            <source>Open</source>
+            <target>Abrir</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___OpenDataFolderCommand" translate="yes">
+            <source>Open data folder</source>
+            <target>Abrir pasta do Subtitle Edit</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___WaveformPasteFromClipboardCommand" translate="yes">
+            <source>Paste into waveform</source>
+            <target>Colar da área de transferência</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___PauseCommand" translate="yes">
+            <source>Pause</source>
+            <target>Pausa</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___PlaySelectedLinesWithoutLoopCommand" translate="yes">
+            <source>Play selected lines</source>
+            <target>Reproduzir linhas selecionadas</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___PlaySelectedLinesWithLoopAndFocusWaveformCommand" translate="yes">
+            <source>Play selected lines (loop)</source>
+            <target>Reproduzir linhas selecionadas com loop e focar forma de onda</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___TogglePlayPauseCommand" translate="yes">
+            <source>Play/pause</source>
+            <target>Alternar reproduzir/pausar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___TogglePlayPause2Command" translate="yes">
+            <source>Play/pause (alternate)</source>
+            <target>Alternar reproduzir/pausar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowPointSyncCommand" translate="yes">
+            <source>Point sync</source>
+            <target>Mostrar pontos de sincronização</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___RedoCommand" translate="yes">
+            <source>Redo</source>
+            <target>Refazer</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowToolsRemoveTextForHearingImpairedCommand" translate="yes">
+            <source>Remove text for hearing impaired</source>
+            <target>Remover texto para deficientes auditivos</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowReplaceCommand" translate="yes">
+            <source>Replace</source>
+            <target>Substituir</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___CommandFileSaveCommand" translate="yes">
+            <source>Save</source>
+            <target>Guardar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___CommandFileSaveAsCommand" translate="yes">
+            <source>Save as</source>
+            <target>Guardar como</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___SaveLanguageFileCommand" translate="yes">
+            <source>Save language file</source>
+            <target>Guardar ficheiro de idioma</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___SelectAllLinesCommand" translate="yes">
+            <source>Select all lines</source>
+            <target>Selecionar tudo</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___SelectionToLowerCommand" translate="yes">
+            <source>Selection to lower case</source>
+            <target>Caixa de texto: seleção para letras minúsculas</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___SelectionToUpperCommand" translate="yes">
+            <source>Selection to upper case</source>
+            <target>Caixa de texto: seleção para letras maiúsculas</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___WaveformSetEndCommand" translate="yes">
+            <source>Set end</source>
+            <target>Definir fim</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___WaveformSetEndAndGoToNextCommand" translate="yes">
+            <source>Set end and go to next</source>
+            <target>Definir fim e ir para o seguinte</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___WaveformSetStartCommand" translate="yes">
+            <source>Set start</source>
+            <target>Definir início</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___SetupLikeSe4Command" translate="yes">
+            <source>Setup like se4</source>
+            <target />
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowAddToNameListCommand" translate="yes">
+            <source>Show add to name list</source>
+            <target>Adicionar nome à lista de nomes</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowFindDoubleWordsCommand" translate="yes">
+            <source>Show find double words</source>
+            <target>Localizar palavras duplicadas</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowHelpCommand" translate="yes">
+            <source>Show help</source>
+            <target>Ajuda</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowSourceViewCommand" translate="yes">
+            <source>Source view</source>
+            <target>Visualização de origem</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ShowSpellCheckCommand" translate="yes">
+            <source>Spell check</source>
+            <target>Verificação ortográfica</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___SplitAtTextBoxCursorPositionCommand" translate="yes">
+            <source>Split at cursor</source>
+            <target>Dividir na posição do cursor de texto</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___SubtitleGridCopyCommand" translate="yes">
+            <source>Subtitle grid copy</source>
+            <target>Grelha de legendas: Copiar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___SubtitleGridCutCommand" translate="yes">
+            <source>Subtitle grid cut</source>
+            <target>Grelha de legendas: Recortar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___SubtitleGridPasteCommand" translate="yes">
+            <source>Subtitle grid paste</source>
+            <target>Grelha de legendas: Colar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___TextBoxCopyCommand" translate="yes">
+            <source>Text box copy</source>
+            <target>Caixa de texto: Copiar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___TextBoxCutCommand" translate="yes">
+            <source>Text box cut</source>
+            <target>Caixa de texto: Recortar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___TextBoxCut2Command" translate="yes">
+            <source>Text box cut2</source>
+            <target>Caixa de texto: Recortar (alternativa)</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___TextBoxDeleteSelectionCommand" translate="yes">
+            <source>Text box delete selection</source>
+            <target>Caixa de texto: Eliminar seleção (sem área de transferência)</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___TextBoxPasteCommand" translate="yes">
+            <source>Text box paste</source>
+            <target>Caixa de texto: Colar</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___TextBoxSelectAllCommand" translate="yes">
+            <source>Text box select all</source>
+            <target>Caixa de texto: Selecionar tudo</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ToggleCasingCommand" translate="yes">
+            <source>Toggle casing</source>
+            <target>Alternar maiúsculas/minúsculas</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___RightToLeftToggleCommand" translate="yes">
+            <source>Toggle right to left</source>
+            <target>Alternar da direita para a esquerda</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___ToggleTranslationModeCommand" translate="yes">
+            <source>Toggle translation mode</source>
+            <target>Alternar modo de tradução</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___UndoCommand" translate="yes">
+            <source>Undo</source>
+            <target>Anular</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___VideoOneSecondBackCommand" translate="yes">
+            <source>Video back 1 second</source>
+            <target>Vídeo, há um segundo</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___Video500MsBackCommand" translate="yes">
+            <source>Video back 500 ms</source>
+            <target>Vídeo, há 500 milissegundos</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___VideoOneSecondForwardCommand" translate="yes">
+            <source>Video forward 1 second</source>
+            <target>Vídeo, um segundo à frente</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___Video500MsForwardCommand" translate="yes">
+            <source>Video forward 500 ms</source>
+            <target>Vídeo, 500 milissegundos à frente</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___WaveformVerticalZoomInCommand" translate="yes">
+            <source>Waveform zoom in</source>
+            <target>Zoom vertical da forma de onda</target>
+          </trans-unit>
+          <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand___WaveformVerticalZoomOutCommand" translate="yes">
+            <source>Waveform zoom out</source>
+            <target>Diminuir zoom vertical da forma de onda</target>
+          </trans-unit>
+        </group>
+        <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeReloadCommand" translate="yes">
+          <source>Reload shortcuts</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeReloadCommand###description" translate="yes">
+          <source>Re-read the shortcuts from Subtitle Edit settings</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___ResetLoupedeck.SubtitleEditPlugin.SeLineAdjustment" translate="yes">
+          <source>Reset Subtitle line</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___ResetLoupedeck.SubtitleEditPlugin.SeLineAdjustment###description" translate="yes">
+          <source>Move to the next or previous subtitle line</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___ResetLoupedeck.SubtitleEditPlugin.SeVideoAdjustment" translate="yes">
+          <source>Reset Video position</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___ResetLoupedeck.SubtitleEditPlugin.SeVideoAdjustment###description" translate="yes">
+          <source>Move the video back or forward, press to play or pause</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___ResetLoupedeck.SubtitleEditPlugin.SeErrorAdjustment" translate="yes">
+          <source>Reset Next error</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___ResetLoupedeck.SubtitleEditPlugin.SeErrorAdjustment###description" translate="yes">
+          <source>Move to the next or previous error</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___#DynamicFolder" translate="yes">
+          <source>Dynamic Folder</source>
+          <target />
+        </trans-unit>
+        <group id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeCommand" />
+      </group>
+      <group id="@adjustments">
+        <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeLineAdjustment" translate="yes">
+          <source>Subtitle line</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeVideoAdjustment" translate="yes">
+          <source>Video position</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeWaveformZoomAdjustment" translate="yes">
+          <source>Waveform zoom</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeWaveformZoomAdjustment###description" translate="yes">
+          <source>Zoom the waveform in or out</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___Loupedeck.SubtitleEditPlugin.SeErrorAdjustment" translate="yes">
+          <source>Next error</source>
+          <target />
+        </trans-unit>
+      </group>
+      <group id="@groups">
+        <trans-unit id="$SubtitleEdit___GroupName___92160E1CDDF65C8E0005" translate="yes">
+          <source>Tools</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___983AFF4B81BAB75D0004" translate="yes">
+          <source>Edit</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___3C26332FADC8490D0006" translate="yes">
+          <source>Timing</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___9F413D7F19D4BB5A0005" translate="yes">
+          <source>Lines</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___BE375760543BE173000D" translate="yes">
+          <source>Subtitle list</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___D06D88A2FFC5A57C0008" translate="yes">
+          <source>Playback</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___FBC9383440E4EA6A0004" translate="yes">
+          <source>Text</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___E0EBFC22C66E8F0B0004" translate="yes">
+          <source>File</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___7BE9F9F55E7173D10007" translate="yes">
+          <source>General</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___B661645C87A2499F0008" translate="yes">
+          <source>Text box</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="$SubtitleEdit___GroupName___54BA4896A13F1DE40006" translate="yes">
+          <source>Plugin</source>
+          <target />
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -85,6 +85,22 @@ The class is called `SeCommand` rather than something more descriptive because a
 entry name cannot exceed 100 characters, and the longest Subtitle Edit action name
 would otherwise push its symbol file past that.
 
+## Languages
+
+Action names are shown in the language of the Logitech software, in all 26 languages
+Subtitle Edit ships. The translations are not written by hand: Subtitle Edit already
+translates every one of these command names, and `ShortcutsMain.BuildCommandTranslations()`
+says which language string belongs to which action, so they are lifted from there.
+
+```bash
+open "loupedeck://plugin/SubtitleEdit/xliff"     # service writes the neutral xliff
+python3 scripts/gen-localization.py              # fills targets from Subtitle Edit
+```
+
+Group names, dial names and descriptions have no Subtitle Edit equivalent and stay in
+English. Dutch resolves only 29 of 78 names because Subtitle Edit's own Dutch
+translation is itself incomplete.
+
 ## Packaging
 
 ```bash

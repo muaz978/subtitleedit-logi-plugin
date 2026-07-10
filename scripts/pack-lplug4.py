@@ -34,7 +34,9 @@ def main():
     if not (SOURCE / "bin").is_dir():
         sys.exit(f"No build found at {SOURCE}. Run: dotnet build -c {CONFIG}")
 
-    folders = [d.name for d in sorted(SOURCE.iterdir()) if d.is_dir()]
+    # localization.generated is the service's scratch output, not part of the package.
+    folders = [d.name for d in sorted(SOURCE.iterdir())
+               if d.is_dir() and d.name != "localization.generated"]
     if "bin" not in folders or "metadata" not in folders:
         sys.exit(f"Expected bin/ and metadata/ under {SOURCE}, found {folders}")
 
