@@ -71,6 +71,20 @@ dotnet build -t:UninstallPlugin   # removes the link
 After `InstallPlugin`, restart Logi Options+. A plain `dotnet build` never touches the
 plugin service.
 
+## Action symbols
+
+Each action has its own icon in the Options+ picker. They are SVGs in
+`SubtitleEditPlugin/package/actionsymbols/`, named after the action's full class name,
+with the parameter name after a three underscore separator. Regenerate with:
+
+```bash
+python3 scripts/gen-action-symbols.py
+```
+
+The class is called `SeCommand` rather than something more descriptive because a tar
+entry name cannot exceed 100 characters, and the longest Subtitle Edit action name
+would otherwise push its symbol file past that.
+
 ## Packaging
 
 ```bash

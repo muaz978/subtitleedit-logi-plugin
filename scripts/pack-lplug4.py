@@ -34,11 +34,15 @@ def main():
     if not (SOURCE / "bin").is_dir():
         sys.exit(f"No build found at {SOURCE}. Run: dotnet build -c {CONFIG}")
 
+    folders = [d.name for d in sorted(SOURCE.iterdir()) if d.is_dir()]
+    if "bin" not in folders or "metadata" not in folders:
+        sys.exit(f"Expected bin/ and metadata/ under {SOURCE}, found {folders}")
+
     OUT.parent.mkdir(exist_ok=True)
     with tarfile.open(OUT, "w", format=tarfile.USTAR_FORMAT) as tar:
-        for folder in ("bin", "metadata"):
+        for folder in folders:
             tar.addfile(entry(folder + "/", 0o777, 0, tarfile.DIRTYPE))
-        for folder in ("metadata", "bin"):
+        for folder in folders:
             for path in sorted((SOURCE / folder).iterdir()):
                 if path.is_file():
                     data = path.read_bytes()

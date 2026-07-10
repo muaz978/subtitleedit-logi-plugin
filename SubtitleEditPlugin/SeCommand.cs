@@ -7,12 +7,16 @@ namespace Loupedeck.SubtitleEditPlugin
     /// One plugin action per Subtitle Edit shortcut that has keys assigned. Pressing
     /// the button sends that shortcut to the focused application.
     ///
+    /// The name is kept short on purpose. Each action symbol file is named after this
+    /// class plus the parameter name, and a tar entry name cannot exceed 100
+    /// characters, which the longest Subtitle Edit action name would otherwise break.
+    ///
     /// The parameters are built from the settings file, so an action the user has not
     /// bound in Subtitle Edit never appears here: there would be no keystroke to send.
     /// </summary>
-    public class SeShortcutCommand : PluginDynamicCommand
+    public class SeCommand : PluginDynamicCommand
     {
-        public SeShortcutCommand()
+        public SeCommand()
             : base()
         {
         }
