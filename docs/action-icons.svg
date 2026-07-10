@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2816" height="2790" viewBox="0 0 1408 1395">
+<rect width="1408" height="1395" fill="#ffffff"/>
+<text x="20" y="32" font-family="Helvetica,Arial,sans-serif" font-size="19" fill="#1f2328">Subtitle Edit plugin for Logi Options+ · 81 action icons</text>
+<g transform="translate(79.0,84) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-6-5-6 5z"/></g>
+<text x="96.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Add or edit</text>
+<text x="96.0" y="155" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">bookmark</text>
+<g transform="translate(231.0,84) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 7v5l3.5 2"/></g>
+<text x="248.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Adjust all times</text>
+<g transform="translate(383.0,84) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l1.8 4.7L18.5 8l-4.7 1.8L12 14l-1.8-4.2L5.5 8l4.7-1.3z" fill="#1f2328" stroke="none"/><path d="M18 15l.9 2.3 2.3.9-2.3.9-.9 2.3-.9-2.3-2.3-.9 2.3-.9z" fill="#1f2328" stroke="none"/></g>
+<text x="400.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">AI review</text>
+<g transform="translate(535.0,84) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M4 12h11a4 4 0 0 1 0 8h-4"/><path d="M12 17l-3 3 3 3" stroke-width="1.6"/></g>
+<text x="552.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Auto break</text>
+<g transform="translate(687.0,84) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z"/></g>
+<text x="704.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Auto translate</text>
+<g transform="translate(839.0,84) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5-9 5-9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 17l9 5 9-5"/></g>
+<text x="856.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Batch convert</text>
+<g transform="translate(991.0,84) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18L6 6l4 12M3.4 14h5.2"/><path d="M20 11a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/><path d="M23 11v6"/></g>
+<text x="1008.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Change casing</text>
+<g transform="translate(1143.0,84) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/><path d="M10 11v6M14 11v6"/></g>
+<text x="1160.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Delete selected</text>
+<text x="1160.0" y="155" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">lines</text>
+<g transform="translate(1295.0,84) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5v14"/><path d="M9 12h10"/><path d="M15 8l4 4-4 4"/></g>
+<text x="1312.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Extend to next</text>
+<g transform="translate(79.0,229) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5v14"/><path d="M15 12H5"/><path d="M9 8l-4 4 4 4"/></g>
+<text x="96.0" y="287" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Extend to previous</text>
+<g transform="translate(231.0,229) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M8 12h8M8 16h8"/></g>
+<text x="248.0" y="287" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Fill selected lines</text>
+<text x="248.0" y="300" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">with clipboard</text>
+<g transform="translate(383.0,229) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></g>
+<text x="400.0" y="287" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Find</text>
+<g transform="translate(535.0,229) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9.5" cy="9.5" r="5.5"/><path d="M13.5 13.5L17 17"/><path d="M17 21l3-3-3-3" stroke-width="1.6"/></g>
+<text x="552.0" y="287" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Find next</text>
+<g transform="translate(687.0,229) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9.5" cy="9.5" r="5.5"/><path d="M13.5 13.5L17 17"/><path d="M21 21l-3-3 3-3" stroke-width="1.6"/></g>
+<text x="704.0" y="287" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Find previous</text>
+<g transform="translate(839.0,229) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 5a5 5 0 0 1-6.6 6.6L5 20l-2-2 8.4-8.4A5 5 0 0 1 18 3z"/></g>
+<text x="856.0" y="287" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Fix common errors</text>
+<g transform="translate(991.0,229) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="6" rx="1"/><path d="M12 3v3M12 18v3"/></g>
+<text x="1008.0" y="287" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Focus selected line</text>
+<g transform="translate(1143.0,229) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9V4h5M21 9V4h-5M3 15v5h5M21 15v5h-5"/></g>
+<text x="1160.0" y="287" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Full screen video</text>
+<g transform="translate(1295.0,229) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h9M4 18h9"/><path d="M16 12l4 3-4 3z" fill="#1f2328" stroke="none"/></g>
+<text x="1312.0" y="287" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Go to line</text>
+<g transform="translate(79.0,374) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3L2 19h18L11 3z"/><path d="M11 9v4M11 16h.01"/><path d="M18 15l3 3-3 3" stroke-width="1.6"/></g>
+<text x="96.0" y="432" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Go to next error</text>
+<g transform="translate(231.0,374) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16M4 10h16"/><path d="M12 14v6M9 17l3 3 3-3"/></g>
+<text x="248.0" y="432" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Go to next line</text>
+<g transform="translate(383.0,374) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3L4 19h18L13 3z"/><path d="M13 9v4M13 16h.01"/><path d="M5 15l-3 3 3 3" stroke-width="1.6"/></g>
+<text x="400.0" y="432" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Go to previous</text>
+<text x="400.0" y="445" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">error</text>
+<g transform="translate(535.0,374) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16M4 14h16"/><path d="M12 10V4M9 7l3-3 3 3"/></g>
+<text x="552.0" y="432" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Go to previous line</text>
+<g transform="translate(687.0,374) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 11h16"/><path d="M12 15v6M9 18h6"/></g>
+<text x="704.0" y="432" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Insert line after</text>
+<g transform="translate(839.0,374) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18h16M4 13h16"/><path d="M12 3v6M9 6h6"/></g>
+<text x="856.0" y="432" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Insert line before</text>
+<g transform="translate(991.0,374) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6v12M20 6v12"/><rect x="8" y="8" width="8" height="8" rx="1"/></g>
+<text x="1008.0" y="432" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Insert new</text>
+<text x="1008.0" y="445" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">selection</text>
+<g transform="translate(1143.0,374) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="12" height="12" rx="1"/><rect x="9" y="9" width="12" height="12" rx="1" fill="#1f2328" stroke="none"/></g>
+<text x="1160.0" y="432" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Inverse selection</text>
+<g transform="translate(1295.0,374) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4h-6M15 20H9M14 4l-4 16" stroke-width="2"/></g>
+<text x="1312.0" y="432" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Italic</text>
+<g transform="translate(79.0,519) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M4 12h10M4 18h6"/><path d="M19 8v5M19 16h.01"/></g>
+<text x="96.0" y="577" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">List errors</text>
+<g transform="translate(231.0,519) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h7l5 6M4 18h7l5-6"/><path d="M16 12h5"/><path d="M18 9l3 3-3 3"/></g>
+<text x="248.0" y="577" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Merge selected</text>
+<text x="248.0" y="590" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">lines</text>
+<g transform="translate(383.0,519) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h9"/><path d="M10 3l3 3-3 3"/><path d="M20 14H11"/><path d="M14 17l-3-3 3-3"/><path d="M4 20h16" stroke-width="1.6"/></g>
+<text x="400.0" y="577" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Multiple replace</text>
+<g transform="translate(535.0,519) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></g>
+<text x="552.0" y="577" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">New</text>
+<g transform="translate(687.0,519) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h6a2 2 0 0 1 2 2v1"/><path d="M3 9h18l-2 9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/></g>
+<text x="704.0" y="577" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Open</text>
+<g transform="translate(839.0,519) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M12 11v5M9.5 13.5L12 16l2.5-2.5"/></g>
+<text x="856.0" y="577" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Open data folder</text>
+<g transform="translate(991.0,519) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10v4M8 7v10M12 9v6M16 6v12M20 10v4"/></g>
+<text x="1008.0" y="577" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Paste into waveform</text>
+<g transform="translate(1143.0,519) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="5" width="3.5" height="14" fill="#1f2328" stroke="none"/><rect x="13.5" y="5" width="3.5" height="14" fill="#1f2328" stroke="none"/></g>
+<text x="1160.0" y="577" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Pause</text>
+<g transform="translate(1295.0,519) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5l11 7-11 7z" fill="#1f2328" stroke="none"/></g>
+<text x="1312.0" y="577" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Play</text>
+<g transform="translate(79.0,664) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h8M4 12h8M4 18h5"/><path d="M15 8l6 4-6 4z" fill="#1f2328" stroke="none"/></g>
+<text x="96.0" y="722" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Play selected lines</text>
+<g transform="translate(231.0,664) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9a6 6 0 0 1 6-6h4"/><path d="M13 1l2 2-2 2"/><path d="M19 15a6 6 0 0 1-6 6H9"/><path d="M11 23l-2-2 2-2"/><path d="M10 10l5 3-5 3z" fill="#1f2328" stroke="none"/></g>
+<text x="248.0" y="722" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Play selected lines</text>
+<text x="248.0" y="735" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">(loop)</text>
+<g transform="translate(383.0,664) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5l8 7-8 7z" fill="#1f2328" stroke="none"/><rect x="14" y="5" width="3" height="14" fill="#1f2328" stroke="none"/><rect x="19" y="5" width="3" height="14" fill="#1f2328" stroke="none"/></g>
+<text x="400.0" y="722" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Play/pause</text>
+<g transform="translate(535.0,664) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5l7 7-7 7z" fill="#1f2328" stroke="none"/><rect x="12" y="5" width="2.6" height="14" fill="#1f2328" stroke="none"/><rect x="16" y="5" width="2.6" height="14" fill="#1f2328" stroke="none"/><circle cx="21" cy="6" r="1.6" fill="#1f2328" stroke="none"/></g>
+<text x="552.0" y="722" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Play/pause</text>
+<text x="552.0" y="735" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">(alternate)</text>
+<g transform="translate(687.0,664) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M8.5 12h7"/></g>
+<text x="704.0" y="722" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Point sync</text>
+<g transform="translate(839.0,664) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 9H10a5 5 0 0 0 0 10h4"/><path d="M16 5l4 4-4 4"/></g>
+<text x="856.0" y="722" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Redo</text>
+<g transform="translate(991.0,664) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8a4 4 0 1 1 8 0c0 3-3 3-3 6a2 2 0 0 1-4 0"/><path d="M11 20h.01"/><path d="M3 5l3 3M3 11h3"/></g>
+<text x="1008.0" y="722" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Remove text for</text>
+<text x="1008.0" y="735" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">hearing impaired</text>
+<g transform="translate(1143.0,664) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h10"/><path d="M11 4l3 3-3 3"/><path d="M20 17H10"/><path d="M13 20l-3-3 3-3"/></g>
+<text x="1160.0" y="722" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Replace</text>
+<g transform="translate(1295.0,664) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/><path d="M10 11v6M14 11v6"/></g>
+<text x="1312.0" y="722" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Ripple delete</text>
+<text x="1312.0" y="735" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">selected lines</text>
+<g transform="translate(79.0,809) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h11l3 3v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><path d="M8 3v6h7V3"/><rect x="8" y="13" width="8" height="6"/></g>
+<text x="96.0" y="867" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Save</text>
+<g transform="translate(231.0,809) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h9l3 3v6"/><path d="M3 5a2 2 0 0 1 2-2v18a2 2 0 0 1-2-2z"/><path d="M8 3v5h5V3"/><path d="M20 13l-6 6-3 1 1-3 6-6z"/></g>
+<text x="248.0" y="867" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Save as</text>
+<g transform="translate(383.0,809) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M8 13h8M12 13v5"/></g>
+<text x="400.0" y="867" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Save language file</text>
+<g transform="translate(535.0,809) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" stroke-dasharray="3 2.4"/><path d="M8 12.5l2.6 2.6L16.5 9"/></g>
+<text x="552.0" y="867" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Select all lines</text>
+<g transform="translate(687.0,809) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/><path d="M9 12v6"/><path d="M18 6v10M15 13l3 3 3-3"/></g>
+<text x="704.0" y="867" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Selection to lower</text>
+<text x="704.0" y="880" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">case</text>
+<g transform="translate(839.0,809) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18L8 5l5 13M4.6 14h6.8"/><path d="M18 18V8M15 11l3-3 3 3"/></g>
+<text x="856.0" y="867" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Selection to upper</text>
+<text x="856.0" y="880" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">case</text>
+<g transform="translate(991.0,809) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 4v16"/><path d="M13 12H4"/><path d="M8 8l-4 4 4 4"/></g>
+<text x="1008.0" y="867" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Set end</text>
+<g transform="translate(1143.0,809) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v16"/><path d="M10 12H3"/><path d="M6 8l-4 4 4 4"/><path d="M18 8l4 4-4 4"/></g>
+<text x="1160.0" y="867" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Set end and go to</text>
+<text x="1160.0" y="880" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">next</text>
+<g transform="translate(1295.0,809) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v16"/><path d="M11 12h9"/><path d="M16 8l4 4-4 4"/></g>
+<text x="1312.0" y="867" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Set start</text>
+<g transform="translate(79.0,954) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M14 9v4h4"/><path d="M17 9v7"/></g>
+<text x="96.0" y="1012" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Setup like se4</text>
+<g transform="translate(231.0,954) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="3"/><path d="M3 20a5 5 0 0 1 10 0"/><path d="M16 9h5M16 13h5M16 17h5"/></g>
+<text x="248.0" y="1012" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Show add to name</text>
+<text x="248.0" y="1025" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">list</text>
+<g transform="translate(383.0,954) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8l2 8 2.5-6L9 16l2-8"/><path d="M13 8l2 8 2.5-6L20 16l2-8"/></g>
+<text x="400.0" y="1012" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Show find double</text>
+<text x="400.0" y="1025" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">words</text>
+<g transform="translate(535.0,954) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.6 2.6 0 1 1 3.4 2.5c-.8.3-1 .9-1 1.7"/><path d="M12 17h.01"/></g>
+<text x="552.0" y="1012" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Show help</text>
+<g transform="translate(687.0,954) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5"/><path d="M16 7l5 5-5 5"/></g>
+<text x="704.0" y="1012" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Source view</text>
+<g transform="translate(839.0,954) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18L6.5 6 11 18M3.6 14h5.8"/><path d="M13 13l3 3 6-6"/></g>
+<text x="856.0" y="1012" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Spell check</text>
+<g transform="translate(991.0,954) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6M12 15v6"/><path d="M4 12h16"/><path d="M9 6l3-3 3 3"/><path d="M9 18l3 3 3-3"/></g>
+<text x="1008.0" y="1012" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Split at cursor</text>
+<g transform="translate(1143.0,954) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></g>
+<text x="1160.0" y="1012" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Subtitle grid copy</text>
+<g transform="translate(1295.0,954) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="18" r="2.6"/><circle cx="18" cy="18" r="2.6"/><path d="M7.8 16.2L19 3M16.2 16.2L5 3"/></g>
+<text x="1312.0" y="1012" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Subtitle grid cut</text>
+<g transform="translate(79.0,1099) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></g>
+<text x="96.0" y="1157" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Subtitle grid paste</text>
+<g transform="translate(231.0,1099) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></g>
+<text x="248.0" y="1157" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Text box copy</text>
+<g transform="translate(383.0,1099) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="18" r="2.6"/><circle cx="18" cy="18" r="2.6"/><path d="M7.8 16.2L19 3M16.2 16.2L5 3"/></g>
+<text x="400.0" y="1157" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Text box cut</text>
+<g transform="translate(535.0,1099) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="18" r="2.6"/><circle cx="18" cy="18" r="2.6"/><path d="M7.8 16.2L19 3M16.2 16.2L5 3"/></g>
+<text x="552.0" y="1157" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Text box cut2</text>
+<g transform="translate(687.0,1099) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/><path d="M10 11v6M14 11v6"/></g>
+<text x="704.0" y="1157" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Text box delete</text>
+<text x="704.0" y="1170" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">selection</text>
+<g transform="translate(839.0,1099) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></g>
+<text x="856.0" y="1157" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Text box paste</text>
+<g transform="translate(991.0,1099) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" stroke-dasharray="3 2.4"/><path d="M8 12.5l2.6 2.6L16.5 9"/></g>
+<text x="1008.0" y="1157" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Text box select all</text>
+<g transform="translate(1143.0,1099) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18L6 6l4 12M3.4 14h5.2"/><path d="M20 11a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/><path d="M23 11v6"/></g>
+<text x="1160.0" y="1157" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Toggle casing</text>
+<g transform="translate(1295.0,1099) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6H9a4 4 0 0 0 0 8h11"/><path d="M16 2l4 4-4 4"/><path d="M4 18h16"/></g>
+<text x="1312.0" y="1157" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Toggle right to</text>
+<text x="1312.0" y="1170" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">left</text>
+<g transform="translate(79.0,1244) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="9" height="13" rx="1"/><rect x="12" y="8" width="9" height="13" rx="1"/></g>
+<text x="96.0" y="1302" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Toggle translation</text>
+<text x="96.0" y="1315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">mode</text>
+<g transform="translate(231.0,1244) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h10a5 5 0 0 1 0 10h-4"/><path d="M8 5L4 9l4 4"/></g>
+<text x="248.0" y="1302" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Undo</text>
+<g transform="translate(383.0,1244) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5l-7 7 7 7z" fill="#1f2328" stroke="none"/><path d="M20 5l-7 7 7 7z" fill="#1f2328" stroke="none"/></g>
+<text x="400.0" y="1302" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Video back 1 second</text>
+<g transform="translate(535.0,1244) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l-8 7 8 7z" fill="#1f2328" stroke="none"/><path d="M20 5v14"/></g>
+<text x="552.0" y="1302" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Video back 500 ms</text>
+<g transform="translate(687.0,1244) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 5l7 7-7 7z" fill="#1f2328" stroke="none"/><path d="M4 5l7 7-7 7z" fill="#1f2328" stroke="none"/></g>
+<text x="704.0" y="1302" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Video forward 1</text>
+<text x="704.0" y="1315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">second</text>
+<g transform="translate(839.0,1244) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l8 7-8 7z" fill="#1f2328" stroke="none"/><path d="M4 5v14"/></g>
+<text x="856.0" y="1302" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Video forward 500</text>
+<text x="856.0" y="1315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">ms</text>
+<g transform="translate(991.0,1244) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10v4M7 7v10M11 9v6"/><path d="M18 8v8M14 12h8"/></g>
+<text x="1008.0" y="1302" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Waveform insert at</text>
+<text x="1008.0" y="1315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">position and focus</text>
+<g transform="translate(1143.0,1244) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M10.5 8v5M8 10.5h5"/></g>
+<text x="1160.0" y="1302" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Waveform zoom in</text>
+<g transform="translate(1295.0,1244) scale(1.4)" fill="none" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M8 10.5h5"/></g>
+<text x="1312.0" y="1302" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#57606a">Waveform zoom out</text>
+</svg>

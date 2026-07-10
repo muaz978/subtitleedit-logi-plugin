@@ -73,6 +73,8 @@ plugin service.
 
 ## Action symbols
 
+![Action icons](docs/action-icons.png)
+
 Each action has its own icon in the Options+ picker. They are SVGs in
 `SubtitleEditPlugin/package/actionsymbols/`, named after the action's full class name,
 with the parameter name after a three underscore separator. Regenerate with:
