@@ -103,6 +103,14 @@ Group names, dial names and descriptions have no Subtitle Edit equivalent and st
 English. Dutch resolves only 29 of 78 names because Subtitle Edit's own Dutch
 translation is itself incomplete.
 
+## Default profile
+
+The package ships a default Actions Ring layout in `profiles/DefaultProfile72.lp5`
+(device 72 is the Actions Ring). The plugin service uses it as the template when a
+user first sets up the Subtitle Edit profile, so a fresh install starts with actions
+in place rather than empty slots. It is a profile exported from Options+, not hand
+built, and applies only to new profiles, never overwriting an existing one.
+
 ## Packaging
 
 ```bash
