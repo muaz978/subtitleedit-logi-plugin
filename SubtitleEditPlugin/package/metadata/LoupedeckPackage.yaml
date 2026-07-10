@@ -20,6 +20,11 @@ copyright: Copyright (c) 2026 Muaz Sabbagh. All rights reserved.
 
 minimumLoupedeckVersion: 6.0
 
+license: MIT
+licenseUrl: https://opensource.org/licenses/MIT
+homePageUrl: https://github.com/muaz978/subtitleedit-logi-plugin
+supportPageUrl: https://github.com/muaz978/subtitleedit-logi-plugin/issues
+
 
 # ==================================================================================================
 # PLUGIN PROPERTIES
