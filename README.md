@@ -28,9 +28,15 @@ Options+ activates it automatically when Subtitle Edit comes forward.
 
 ### Where the settings are read from
 
-1. `SUBTITLE_EDIT_SETTINGS`, if set, for a portable install.
-2. `%APPDATA%\Subtitle Edit\Settings.json` on Windows,
+1. `SUBTITLE_EDIT_SETTINGS`, if set.
+2. Next to a running `SubtitleEdit` executable. Subtitle Edit treats itself as portable
+   when it is not installed under Program Files and then keeps `Settings.json` beside
+   its executable, which is how the Windows zip is normally run.
+3. `%APPDATA%\Subtitle Edit\Settings.json` on Windows,
    `~/Library/Application Support/Subtitle Edit/Settings.json` on macOS.
+
+This reads Subtitle Edit 5's `Settings.json`. The classic Subtitle Edit 4 keeps its
+shortcuts in `Settings.xml`, in an unrelated format, and is not supported.
 
 ## Actions
 

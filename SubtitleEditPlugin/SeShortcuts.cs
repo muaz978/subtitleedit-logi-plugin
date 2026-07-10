@@ -52,6 +52,15 @@ namespace Loupedeck.SubtitleEditPlugin
 
         private static IEnumerable<String> GetCandidatePaths()
         {
+            // A Subtitle Edit that is not installed under Program Files treats itself as
+            // portable and keeps Settings.json next to its executable, which is how the
+            // Windows zip is normally run. Ask the running process where it lives.
+            var portable = TryGetPortableSettingsPath();
+            if (portable != null)
+            {
+                yield return portable;
+            }
+
             // Subtitle Edit builds this same path from SpecialFolder.ApplicationData.
             var appData = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             if (!String.IsNullOrEmpty(appData))
@@ -64,6 +73,47 @@ namespace Loupedeck.SubtitleEditPlugin
             {
                 yield return Path.Combine(home, "Library", "Application Support", "Subtitle Edit", "Settings.json");
             }
+        }
+
+        /// <summary>
+        /// Returns Settings.json beside a running Subtitle Edit, or null. Reading another
+        /// process's module list can be refused by the operating system, so any failure
+        /// here just falls through to the well known locations.
+        /// </summary>
+        private static String TryGetPortableSettingsPath()
+        {
+            try
+            {
+                foreach (var process in System.Diagnostics.Process.GetProcessesByName("SubtitleEdit"))
+                {
+                    using (process)
+                    {
+                        var executable = process.MainModule?.FileName;
+                        if (String.IsNullOrEmpty(executable))
+                        {
+                            continue;
+                        }
+
+                        var folder = Path.GetDirectoryName(executable);
+                        if (String.IsNullOrEmpty(folder))
+                        {
+                            continue;
+                        }
+
+                        var candidate = Path.Combine(folder, "Settings.json");
+                        if (File.Exists(candidate))
+                        {
+                            return candidate;
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                PluginLog.Verbose("Could not inspect a running Subtitle Edit: " + e.Message);
+            }
+
+            return null;
         }
 
         /// <summary>
