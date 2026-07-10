@@ -16,15 +16,27 @@ namespace Loupedeck.SubtitleEditPlugin
     /// </summary>
     internal static class SeIconLoader
     {
-        private static readonly String Folder = ResolveFolder();
+        private static String _folder;
         private static readonly ConcurrentDictionary<String, String> Cache =
             new ConcurrentDictionary<String, String>(StringComparer.Ordinal);
 
-        private static String ResolveFolder()
+        /// <summary>The resolved actionsymbols folder, or null. For diagnostics.</summary>
+        public static String FolderPath => _folder;
+
+        /// <summary>
+        /// Finds the actionsymbols folder from the plugin's assembly path. The plugin
+        /// service can load the assembly without setting Assembly.Location, so the path
+        /// is passed in from Plugin.AssemblyFilePath, which is reliable. Falls back to
+        /// the assembly location and the app base directory.
+        /// </summary>
+        public static void Initialize(String assemblyFilePath)
         {
             foreach (var baseDir in new[]
             {
-                Path.GetDirectoryName(typeof(SeIconLoader).Assembly.Location),
+                String.IsNullOrEmpty(assemblyFilePath) ? null : Path.GetDirectoryName(assemblyFilePath),
+                String.IsNullOrEmpty(typeof(SeIconLoader).Assembly.Location)
+                    ? null
+                    : Path.GetDirectoryName(typeof(SeIconLoader).Assembly.Location),
                 AppContext.BaseDirectory,
             })
             {
@@ -37,23 +49,25 @@ namespace Loupedeck.SubtitleEditPlugin
                 var sibling = Path.GetFullPath(Path.Combine(baseDir, "..", "actionsymbols"));
                 if (Directory.Exists(sibling))
                 {
-                    return sibling;
+                    _folder = sibling;
+                    return;
                 }
 
                 var here = Path.Combine(baseDir, "actionsymbols");
                 if (Directory.Exists(here))
                 {
-                    return here;
+                    _folder = here;
+                    return;
                 }
             }
 
-            return null;
+            _folder = null;
         }
 
         /// <summary>Returns the SVG for a symbol file name, or null if there is none.</summary>
         public static String LoadSvg(String fileName)
         {
-            if (Folder == null || String.IsNullOrEmpty(fileName))
+            if (_folder == null || String.IsNullOrEmpty(fileName))
             {
                 return null;
             }
@@ -62,7 +76,7 @@ namespace Loupedeck.SubtitleEditPlugin
             {
                 try
                 {
-                    var path = Path.Combine(Folder, name);
+                    var path = Path.Combine(_folder, name);
                     return File.Exists(path) ? File.ReadAllText(path) : null;
                 }
                 catch (Exception e)
@@ -72,6 +86,8 @@ namespace Loupedeck.SubtitleEditPlugin
                 }
             });
         }
+
+        private static Boolean _loggedFirst;
 
         /// <summary>Draws the SVG for an action, or null to let the service draw the name.</summary>
         public static BitmapImage Image(String symbolFileName)
@@ -84,7 +100,14 @@ namespace Loupedeck.SubtitleEditPlugin
 
             try
             {
-                return BitmapImage.FromSvg(svg);
+                var image = BitmapImage.FromSvg(svg);
+                if (!_loggedFirst)
+                {
+                    _loggedFirst = true;
+                    PluginLog.Info($"First action image drawn: {symbolFileName} -> {(image != null ? "ok" : "null")}");
+                }
+
+                return image;
             }
             catch (Exception e)
             {

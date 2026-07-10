@@ -12,7 +12,7 @@ description: Control Subtitle Edit from your Logitech device. Actions are read f
 
 pluginFileName: SubtitleEditPlugin.dll
 
-version: 1.1
+version: 1.2
 
 author: Muaz Sabbagh
 

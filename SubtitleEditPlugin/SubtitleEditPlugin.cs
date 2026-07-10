@@ -30,7 +30,12 @@ namespace Loupedeck.SubtitleEditPlugin
 
         public override void Load()
         {
+            // The plugin service can load the assembly without setting Assembly.Location,
+            // so point the icon loader at the reliable assembly path.
+            SeIconLoader.Initialize(this.AssemblyFilePath);
             ReloadBindings();
+
+            PluginLog.Info("Icon folder: " + (SeIconLoader.FolderPath ?? "NOT FOUND"));
         }
 
         public override void Unload()
