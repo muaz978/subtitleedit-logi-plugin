@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+"""
+Packs the built plugin into a .lplug4 package.
+
+A .lplug4 is an uncompressed POSIX ustar archive whose root holds bin/ and
+metadata/, with directory entries present. The SDK documentation describes it as
+"essentially a zip file", which it is not: a zip is silently rejected by the
+plugin service, and double clicking it appears to do nothing. This was confirmed
+by unpacking a published Logitech plugin.
+
+Usage:  python3 scripts/pack-lplug4.py [Release|Debug]
+"""
+import io
+import pathlib
+import sys
+import tarfile
+
+CONFIG = sys.argv[1] if len(sys.argv) > 1 else "Release"
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+SOURCE = ROOT / "SubtitleEditPlugin" / CONFIG
+OUT = ROOT / "dist" / "SubtitleEdit_1_0.lplug4"
+MTIME = 1767974400  # fixed, so the package is reproducible
+
+
+def entry(name, mode, size, kind):
+    info = tarfile.TarInfo(name)
+    info.mode, info.uid, info.gid = mode, 0, 0
+    info.uname, info.gname = "", ""
+    info.mtime, info.size, info.type = MTIME, size, kind
+    return info
+
+
+def main():
+    if not (SOURCE / "bin").is_dir():
+        sys.exit(f"No build found at {SOURCE}. Run: dotnet build -c {CONFIG}")
+
+    OUT.parent.mkdir(exist_ok=True)
+    with tarfile.open(OUT, "w", format=tarfile.USTAR_FORMAT) as tar:
+        for folder in ("bin", "metadata"):
+            tar.addfile(entry(folder + "/", 0o777, 0, tarfile.DIRTYPE))
+        for folder in ("metadata", "bin"):
+            for path in sorted((SOURCE / folder).iterdir()):
+                if path.is_file():
+                    data = path.read_bytes()
+                    tar.addfile(entry(f"{folder}/{path.name}", 0o666, len(data), tarfile.REGTYPE),
+                                io.BytesIO(data))
+
+    names = tarfile.open(OUT).getnames()
+    for required in ("metadata/LoupedeckPackage.yaml", "metadata/Icon256x256.png",
+                     "bin/SubtitleEditPlugin.dll"):
+        if required not in names:
+            sys.exit(f"Package is missing {required}")
+
+    print(f"wrote {OUT} ({OUT.stat().st_size / 1048576:.1f} MB, {len(names)} entries)")
+
+
+if __name__ == "__main__":
+    main()

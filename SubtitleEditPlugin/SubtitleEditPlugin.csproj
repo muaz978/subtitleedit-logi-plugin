@@ -27,9 +27,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <!--
+      Copied into the package. Logitech's own published plugins ship PluginApi.dll
+      next to the plugin, so the package mirrors that rather than relying on the
+      service to resolve it.
+    -->
     <Reference Include="PluginApi">
       <HintPath>$(PluginApiDir)PluginApi.dll</HintPath>
-      <Private>false</Private>
+      <Private>true</Private>
     </Reference>
   </ItemGroup>
 

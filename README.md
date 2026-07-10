@@ -71,6 +71,18 @@ dotnet build -t:UninstallPlugin   # removes the link
 After `InstallPlugin`, restart Logi Options+. A plain `dotnet build` never touches the
 plugin service.
 
+## Packaging
+
+```bash
+cd SubtitleEditPlugin && dotnet build -c Release
+python3 ../scripts/pack-lplug4.py
+```
+
+A `.lplug4` is an uncompressed POSIX ustar archive with `bin/` and `metadata/` at its
+root. The SDK documentation calls it "essentially a zip file"; it is not. A zip is
+rejected silently, so double clicking it appears to do nothing. Verified by unpacking a
+published Logitech plugin.
+
 ## Status
 
 - Compiles against the shipped `PluginApi.dll`.
