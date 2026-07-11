@@ -122,6 +122,17 @@ built, and applies only to new profiles, never overwriting an existing one.
 
 ## Packaging
 
+Two package formats, same contents, different consumers:
+
+- `python3 scripts/pack-lplug4.py` writes the **tar** `.lplug4` for direct install
+  (the local plugin service rejects a zip silently).
+- `python3 scripts/pack-lplug4-zip.py` writes the **zip** `SubtitleEdit_<v>_marketplace.lplug4`
+  for the Logi Marketplace upload (its validator unzips the file; a tar fails there).
+
+The Marketplace re-serves a tar to end users, so only the tar reaches an installed device.
+
+### Original packaging notes
+
 ```bash
 cd SubtitleEditPlugin && dotnet build -c Release
 python3 ../scripts/pack-lplug4.py
