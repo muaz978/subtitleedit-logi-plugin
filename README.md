@@ -4,7 +4,10 @@ Control [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) from a Log
 device: MX Master (Actions Ring), MX Keys, or the MX Creative Console (buttons and dials).
 
 Built on the [Logi Actions SDK](https://logitech.github.io/actions-sdk-docs/).
-Runs on macOS and Windows from the same source.
+Runs on macOS and Windows from the same source, and is tested on both.
+
+Submitted to the Logi Marketplace and awaiting review. Until it is approved there,
+install from a release with the steps below.
 
 ## Screenshots
 
@@ -80,6 +83,45 @@ dotnet build -t:UninstallPlugin   # removes the link
 After `InstallPlugin`, restart Logi Options+. A plain `dotnet build` never touches the
 plugin service.
 
+## Installing and running locally
+
+Once the Marketplace listing is approved, installing is a double click on the `.lplug4`,
+which opens Logi Options+ and walks you through it. Until then, or for a package you
+built yourself, install it manually.
+
+**From a build, with the .NET SDK (macOS or Windows):**
+
+```bash
+cd SubtitleEditPlugin
+dotnet build -c Release -t:InstallPlugin
+```
+
+This builds the plugin and links it into the plugin service. Restart Logi Options+,
+launch Subtitle Edit, and the Subtitle Edit actions appear in Options+.
+
+**From a released package, without the .NET SDK (Windows):** the `.lplug4` is a tar, so
+unpack it into a folder and point the plugin service at that folder with a `.link` file.
+
+```powershell
+$pkg  = "$env:USERPROFILE\SubtitleEditPlugin"
+$dest = "$env:LOCALAPPDATA\Logi\LogiPluginService\Plugins"
+New-Item -ItemType Directory -Force -Path $pkg, $dest | Out-Null
+tar -xf "$env:USERPROFILE\Downloads\SubtitleEdit_1_3.lplug4" -C $pkg
+Set-Content "$dest\SubtitleEditPlugin.link" "$pkg\" -NoNewline -Encoding ASCII
+Stop-Process -Name LogiPluginService -Force
+```
+
+The plugin service restarts on its own. Launch Subtitle Edit, open Options+, and the
+actions and the default Actions Ring layout are there.
+
+If the action panel is empty, the plugin did not load. Check its own log at
+`%LOCALAPPDATA%\Logi\LogiPluginService\Logs\plugin_logs\SubtitleEdit.log`: no log file,
+or one without a version line, means the `.link` is missing or points at the wrong
+folder. Recreate the `.link` and restart the service.
+
+To remove a manual install, delete the `.link` file and restart the service, or run
+`dotnet build -t:UninstallPlugin` if you installed from a build.
+
 ## Action symbols
 
 ![Action icons](docs/action-icons.png)
@@ -145,10 +187,14 @@ published Logitech plugin.
 
 ## Status
 
-- Compiles against the shipped `PluginApi.dll`.
-- The shortcut reader and key translation are exercised against a real `Settings.json`:
-  all 80 entries resolve, the 2 that are dropped are the ones Subtitle Edit leaves
-  unassigned, and the modifier and key values are asserted for the tricky cases
-  (number row `D4`, arrows, numpad `Add` and `Subtract`, `Back`, and multi modifier
+- Tested on Windows and macOS. Installed in Logi Options+ on both, the actions drive
+  Subtitle Edit 5 through the Actions Ring, each action shows its own icon, the grouped
+  action list appears as expected, and the default Actions Ring profile loads on a fresh
+  install.
+- The shortcut reader and key translation are also covered by tests against a real
+  `Settings.json`: all 80 entries resolve, the 2 that are dropped are the ones Subtitle
+  Edit leaves unassigned, and the modifier and key values are asserted for the tricky
+  cases (number row `D4`, arrows, numpad `Add` and `Subtract`, `Back`, and multi modifier
   combinations such as `Win+Alt+Shift+D`).
-- Not yet exercised on a physical device.
+- Compiles against the shipped `PluginApi.dll`.
+- Submitted to the Logi Marketplace and awaiting review.
